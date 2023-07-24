@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sizer/flutter_sizer.dart';
 
 class LogCompany extends StatelessWidget {
   const LogCompany({super.key});
@@ -19,8 +20,8 @@ class LogCompany extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 color: Color.fromRGBO(47, 60, 80, 1),
               ),
-              height: 72,
-              width: 98.333,
+              height: Adaptive.h(40),
+              width: Adaptive.w(23),
               child: MaterialButton(
                 onPressed: () {},
                 child: Center(
@@ -32,7 +33,7 @@ class LogCompany extends StatelessWidget {
               ),
             ),
             SizedBox(
-              width: 15.67,
+              width: Adaptive.h(1.5),
             ),
             Container(
               decoration: BoxDecoration(
@@ -40,8 +41,8 @@ class LogCompany extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 color: Color.fromRGBO(47, 60, 80, 1),
               ),
-              height: 72,
-              width: 98.333,
+              height: Adaptive.h(40),
+              width: Adaptive.w(23),
               child: MaterialButton(
                 onPressed: () {},
                 child: Center(
@@ -53,7 +54,7 @@ class LogCompany extends StatelessWidget {
               ),
             ),
             SizedBox(
-              width: 15.67,
+              width: Adaptive.w(1.5),
             ),
             Container(
               decoration: BoxDecoration(
@@ -61,8 +62,8 @@ class LogCompany extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 color: Color.fromRGBO(47, 60, 80, 1),
               ),
-              height: 72,
-              width: 98.333,
+              height: Adaptive.h(40),
+              width: Adaptive.w(23),
               child: MaterialButton(
                 onPressed: () {},
                 child: Center(
